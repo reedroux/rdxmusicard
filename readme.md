@@ -10,7 +10,7 @@ npm install git+https://github.com/reedroux/rdxmusicard
 This example code will generate a music card image and save it.
 ```js
 (async () => {
-    const { mikocard } = require("musicard");
+    const { rdxmusicard  } = require("rdxmusicard ");
     const fs = require("fs");
 
     const card = new mikocard()
@@ -26,7 +26,7 @@ This example code will generate a music card image and save it.
 
     const cardBuffer = await card.build();
 
-    fs.writeFileSync(`mewcard.png`, cardBuffer);
+    fs.writeFileSync(`rdxmusicard `, cardBuffer);
     console.log("Done!");
 })()
 ```
