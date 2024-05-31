@@ -3,7 +3,7 @@
 
 # __Installation__
 ```
-npm install git+https://github.com/dawgcodes/rdxmusicard
+npm install git+https://github.com/reedroux/rdxmusicard
 ```
 
 # __Example__
