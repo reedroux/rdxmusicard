@@ -1,3 +1,3 @@
-const { mikocard } = require("./structures/mikocard");
+const { mikocard } = require("./structures/rdxmusiccard");
 
-module.exports = { mikocard };
+module.exports = { rdxmusiccard };
